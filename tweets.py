@@ -10,8 +10,7 @@ import json
 import os
 import pymongo
 
-# ----- NOTES ------
-# - can
+
 
 seen_tweets_file = 'seen_tweets.json' # name of the file we will store the tweet instances
 USERNAME = "cjnaskhf"
