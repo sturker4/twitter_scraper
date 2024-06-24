@@ -15,7 +15,7 @@ import pymongo
 seen_tweets_file = 'seen_tweets.json' # name of the file we will store the tweet instances
 USERNAME = "cjnaskhf"
 PASSWORD = "Sarpusgladius.28"
-ACCOUNTS = ["onat_sf1", "fenerbahce"] # accounts to be scraped
+ACCOUNTS = ["itu_yzv", "fenerbahce"] # accounts to be scraped
 DATECAP = 10 # stop extracting if the tweet was posted this amount of days ago
 
 def days_difference(given_date_str):
@@ -131,7 +131,7 @@ def extract_tweets():
     # scrape for each account
     for account in ACCOUNTS:
         driver.get(f"https://twitter.com/{account}")
-        time.sleep(2)
+        time.sleep(4)
         
          
         while True:
